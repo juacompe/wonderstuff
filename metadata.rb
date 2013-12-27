@@ -1,6 +1,6 @@
 name             'wonderstuff'
-maintainer       'YOUR_NAME'
-maintainer_email 'YOUR_EMAIL'
+maintainer       'Chokchai Phatharamalai'
+maintainer_email 'juacompe@odd-e.com'
 license          'All rights reserved'
 description      'Installs/Configures wonderstuff'
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
