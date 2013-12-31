@@ -14,6 +14,7 @@ describe 'wonderstuff::default' do
     it "creates a webpage to be served" do
         content = "Wonderstuff Design is a boutique graphics design agency."
         expect(chef_run).to render_file('/var/www/index.html').with_content(content)
+        expect(chef_run).to create_cookbook_file('/var/www/index.html').with(owner: 'www-data', group: 'www-data')
     end
 
     it "starts the lighttpd service" do

@@ -14,4 +14,6 @@ end
 
 cookbook_file '/var/www/index.html' do
     source 'wonderstuff.html'
+    owner 'www-data'
+    group 'www-data'
 end
