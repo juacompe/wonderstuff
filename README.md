@@ -1,5 +1,29 @@
 # wonderstuff cookbook
 
+### Setup environment ###
+
+```
+gem install bundler
+bundle install
+```
+### Run Unit Tests ###
+
+```
+rspec
+```
+
+### Run Integration Tests ###
+
+```
+kitchen verify
+```
+
+### Run Acceptance Tests ###
+
+```
+cucumber
+```
+
 # Requirements
 
 # Usage
@@ -10,4 +34,4 @@
 
 # Author
 
-Author:: YOUR_NAME (<YOUR_EMAIL>)
+Author:: Chokchai Phatharamalai (juacompe@gmail.com)
